@@ -1,5 +1,6 @@
 ﻿using EnozomTask.Data;
 using EnozomTask.DTO;
+using EnozomTask.Interfaces;
 using EnozomTask.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -12,29 +13,25 @@ namespace EnozomTask.Controllers
     public class GeneratingReportController : ControllerBase
     {
         private readonly ApplicationDBContext _context;
-       
+        private readonly IReportService _reportService;
 
-        public GeneratingReportController(ApplicationDBContext context)
+        public GeneratingReportController( IReportService reportService)
         {
-            _context = context;
+            _reportService = reportService;
         
         }
 
         [HttpGet("report")]
         public async Task<IActionResult> GetBookCopiesReport()
         {
-            var report = await _context.Copies
-                .Include(c => c.Book)
-                .Include(c => c.CopyStatus)
-                .Select(c => new BookCopyReportDto
-                {
-                    BookName = c.Book.Name,
-                    CopyId = c.Id,
-                    Status = c.CopyStatus.Status
-                })
-                .ToListAsync();
+            try
+            {
+                var report = await _reportService.GenerateReportAsync();
+                return Ok(report);
+            }
+            catch (Exception ex) {return BadRequest(ex.Message); }
 
-            return Ok(report);
+            
         }
     }
 }

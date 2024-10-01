@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnozomTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b8a2a7f57b5da994f7c23e313894f4ca9eeed4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5a5847716d480e409a09185ed166646c9fad307")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnozomTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnozomTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,7 @@
 using EnozomTask.Data;
+using EnozomTask.Interfaces;
+using EnozomTask.Repositories;
+using EnozomTask.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,9 +11,17 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddScoped<IReportService, ReportService>();
+builder.Services.AddScoped<IBorrowingService, BorrowingService>(); // Add this line
+builder.Services.AddScoped<IBorrowingRepository, BorrowingRepository>();
+builder.Services.AddScoped<IReportRepository, ReportRepository>();
+
 builder.Services.AddSwaggerGen();
+
 builder.Services.AddDbContext<ApplicationDBContext>(options => {
     options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection"));
+   
+
 });
 
 var app = builder.Build();
