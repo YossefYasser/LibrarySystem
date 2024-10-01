@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "ContainingType": "EnozomTask.Controllers.BorrowBooksController",
+    "Method": "BorrowBookAsync",
+    "RelativePath": "api/BorrowBooks/borrow",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "borrowRequest",
+        "Type": "EnozomTask.DTO.BorrowBookDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EnozomTask.Controllers.BorrowBooksController",
+    "Method": "ReturnBook",
+    "RelativePath": "api/BorrowBooks/return",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "returnBookDto",
+        "Type": "EnozomTask.DTO.ReturnBookDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EnozomTask.Controllers.GeneratingReportController",
+    "Method": "GetBookCopiesReport",
+    "RelativePath": "api/GeneratingReport/report",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
