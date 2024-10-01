@@ -1,11 +1,10 @@
 # Library Management System
 
-This project is a simple Library Management System that allows users to manage books, students, and borrowing operations.
+This project is a simple Library Management System that allows users to manage and borrowing operations.
 
 ## Features
 
-- **Manage Books:** Add, edit, and delete books and their copies.
-- **Manage Students:** Register and update student information.
+-
 - **Borrowing Operations:** Track book borrowings, returns, and generate reports.
 - **Status Tracking:** Track the status of borrowed books using the `CopyStatus` table.
 
