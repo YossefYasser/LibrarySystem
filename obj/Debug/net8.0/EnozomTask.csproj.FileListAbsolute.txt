@@ -1,10 +1,6 @@
+C:\Users\R\source\repos\EnozomTask\EnozomTask\bin\Debug\net8.0\EnozomTask.exe
 C:\Users\R\source\repos\EnozomTask\EnozomTask\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\R\source\repos\EnozomTask\EnozomTask\bin\Debug\net8.0\appsettings.json
-C:\Users\R\source\repos\EnozomTask\EnozomTask\bin\Debug\net8.0\EnozomTask.exe
-C:\Users\R\source\repos\EnozomTask\EnozomTask\bin\Debug\net8.0\EnozomTask.deps.json
-C:\Users\R\source\repos\EnozomTask\EnozomTask\bin\Debug\net8.0\EnozomTask.runtimeconfig.json
-C:\Users\R\source\repos\EnozomTask\EnozomTask\bin\Debug\net8.0\EnozomTask.dll
-C:\Users\R\source\repos\EnozomTask\EnozomTask\bin\Debug\net8.0\EnozomTask.pdb
 C:\Users\R\source\repos\EnozomTask\EnozomTask\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\Users\R\source\repos\EnozomTask\EnozomTask\bin\Debug\net8.0\Google.Protobuf.dll
 C:\Users\R\source\repos\EnozomTask\EnozomTask\bin\Debug\net8.0\Humanizer.dll
@@ -104,6 +100,7 @@ C:\Users\R\source\repos\EnozomTask\EnozomTask\obj\Debug\net8.0\EnozomTask.Assemb
 C:\Users\R\source\repos\EnozomTask\EnozomTask\obj\Debug\net8.0\EnozomTask.csproj.CoreCompileInputs.cache
 C:\Users\R\source\repos\EnozomTask\EnozomTask\obj\Debug\net8.0\EnozomTask.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\R\source\repos\EnozomTask\EnozomTask\obj\Debug\net8.0\EnozomTask.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\R\source\repos\EnozomTask\EnozomTask\obj\Debug\net8.0\EnozomTask.sourcelink.json
 C:\Users\R\source\repos\EnozomTask\EnozomTask\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\R\source\repos\EnozomTask\EnozomTask\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\R\source\repos\EnozomTask\EnozomTask\obj\Debug\net8.0\staticwebassets\msbuild.EnozomTask.Microsoft.AspNetCore.StaticWebAssets.props
@@ -116,5 +113,9 @@ C:\Users\R\source\repos\EnozomTask\EnozomTask\obj\Debug\net8.0\EnozomTask.csproj
 C:\Users\R\source\repos\EnozomTask\EnozomTask\obj\Debug\net8.0\EnozomTask.dll
 C:\Users\R\source\repos\EnozomTask\EnozomTask\obj\Debug\net8.0\refint\EnozomTask.dll
 C:\Users\R\source\repos\EnozomTask\EnozomTask\obj\Debug\net8.0\EnozomTask.pdb
+C:\Users\R\source\repos\EnozomTask\EnozomTask\bin\Debug\net8.0\EnozomTask.deps.json
+C:\Users\R\source\repos\EnozomTask\EnozomTask\bin\Debug\net8.0\EnozomTask.runtimeconfig.json
+C:\Users\R\source\repos\EnozomTask\EnozomTask\bin\Debug\net8.0\EnozomTask.dll
+C:\Users\R\source\repos\EnozomTask\EnozomTask\bin\Debug\net8.0\EnozomTask.pdb
 C:\Users\R\source\repos\EnozomTask\EnozomTask\obj\Debug\net8.0\EnozomTask.genruntimeconfig.cache
 C:\Users\R\source\repos\EnozomTask\EnozomTask\obj\Debug\net8.0\ref\EnozomTask.dll

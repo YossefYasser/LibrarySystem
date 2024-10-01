@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\R\\source\\repos\\EnozomTask\\EnozomTask\\EnozomTask.csproj": {}
+    "C:\\Users\\R\\source\\repos\\EnozomTask\\enozomtask\\EnozomTask.csproj": {}
   },
   "projects": {
-    "C:\\Users\\R\\source\\repos\\EnozomTask\\EnozomTask\\EnozomTask.csproj": {
+    "C:\\Users\\R\\source\\repos\\EnozomTask\\enozomtask\\EnozomTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\R\\source\\repos\\EnozomTask\\EnozomTask\\EnozomTask.csproj",
+        "projectUniqueName": "C:\\Users\\R\\source\\repos\\EnozomTask\\enozomtask\\EnozomTask.csproj",
         "projectName": "EnozomTask",
-        "projectPath": "C:\\Users\\R\\source\\repos\\EnozomTask\\EnozomTask\\EnozomTask.csproj",
+        "projectPath": "C:\\Users\\R\\source\\repos\\EnozomTask\\enozomtask\\EnozomTask.csproj",
         "packagesPath": "C:\\Users\\R\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\R\\source\\repos\\EnozomTask\\EnozomTask\\obj\\",
+        "outputPath": "C:\\Users\\R\\source\\repos\\EnozomTask\\enozomtask\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\R\\AppData\\Roaming\\NuGet\\NuGet.Config",
