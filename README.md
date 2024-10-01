@@ -4,7 +4,7 @@ This project is a simple Library Management System that allows users to manage a
 
 ## Features
 
--
+
 - **Borrowing Operations:** Track book borrowings, returns, and generate reports.
 - **Status Tracking:** Track the status of borrowed books using the `CopyStatus` table.
 
